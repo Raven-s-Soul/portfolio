@@ -7,21 +7,21 @@ function Navbar() {
     <div className="App">
         <div className='Navbar'>
 
-            <Link to="/">
+            <Link to="portfolio/">
             <h2>Portfolio</h2>
             </Link>
 
             <ul className='Links'>
 
-                <Link to="/design">
+                <Link to="portfolio/design">
                     <li>Design</li>
                 </Link>
 
-                <Link to="/dev">
+                <Link to="portfolio/dev">
                     <li>Dev</li>
                 </Link>
 
-                <Link to="/about">
+                <Link to="portfolio/about">
                     <li>About</li>
                 </Link>
 
