@@ -2,3 +2,18 @@
   text-align: center;
 }
 
+.Navbar {
+  height:  6vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b10000 ;
+  /*color: #C49B55;*/
+}
+
+.Links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width:  20%;
+}
