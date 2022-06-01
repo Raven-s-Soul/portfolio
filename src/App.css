@@ -7,8 +7,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #b10000 ;
-  /*color: #C49B55;*/
+  background-image: linear-gradient(to right, #b10000  , #870101);
+  color: #C49B55;
 }
 
 .Links {
@@ -16,4 +16,44 @@
   list-style: none;
   justify-content: space-between;
   width:  20%;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a:visited {
+  text-decoration: none;
+  color: #C49B55;
+ }
+
+.red {
+  color: #b10000;
+}
+
+.container {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.left {
+  text-align:end;
+  width: 50%;
+  height: 50vh;
+  padding-right:1rem;
+}
+
+.abtext {
+  text-align:start;
+  width: 50%;
+  height: 50vh;
+  padding-left:1rem;
 }

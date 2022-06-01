@@ -4,7 +4,9 @@ import React from 'react'
 function Home() {
   return (
     <div className="App">
-        Home
+        <br/>
+        <h1>Welcome to my Portfolio</h1>
+        <h4>This Portfolio is still Working In Progress. That is my first time using React as a framework, so I'm sorry if the page feels a bit clunky.</h4>
     </div>
   );
 }
