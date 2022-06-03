@@ -20,7 +20,7 @@ function About() {
                 <br/>
                 I'm a big fan of FPS games; I played competitively, but I chose to retire pretty early to focus on my studies, and when I got a bit of free time, I started coaching teams.<br/>
                 <br/>
-                I like free space activities, especially when with other people, but what I like the most is doing great teamwork and when everyone works perfectly with others that look like some gears inside a pocket watch.
+                I like free space activities, especially when with other people, but what I like the most is doing great teamwork, and I like it even more when everyone works perfectly with others that look like some gears inside a pocket watch.
             </div>
         </div>
     </div>
