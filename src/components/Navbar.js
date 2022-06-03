@@ -13,15 +13,15 @@ function Navbar() {
 
             <ul className='Links'>
 
-                <Link to="portfolio/design">
+                <Link to="design">
                     <li>Design</li>
                 </Link>
 
-                <Link to="portfolio/dev">
+                <Link to="dev">
                     <li>Dev</li>
                 </Link>
 
-                <Link to="portfolio/about">
+                <Link to="about">
                     <li>About</li>
                 </Link>
 
