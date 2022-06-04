@@ -13,18 +13,23 @@ function Navbar() {
 
             <ul className='Links'>
 
-                <Link to="portfolio/design">
-                    <li>Design</li>
-                </Link>
+                    <div className='paddingtop'>
+                        <Link to="portfolio/design">
+                            <li>Design</li>
+                        </Link>
+                    </div>
 
-                <Link to="portfolio/dev">
-                    <li>Dev</li>
-                </Link>
+                    <div className='paddingtop'>
+                        <Link to="portfolio/dev">
+                            <li>Dev</li>
+                        </Link>
+                    </div>
 
-                <Link to="portfolio/about">
-                    <li>About</li>
-                </Link>
-
+                    <div className='paddingtop'>
+                        <Link to="portfolio/about">
+                            <li>About</li>
+                        </Link>
+                    </div>
             </ul>
         </div>
     </div>

@@ -12,13 +12,14 @@
 }
 
 .Links {
-  display: flex;
+  display:flex;
   list-style: none;
   justify-content: space-between;
   width:  20%;
 }
 
-a:link { text-decoration: none;
+a:link {
+  text-decoration: none;
   color: white;
 }
 
@@ -65,4 +66,8 @@ a:visited {
   max-width: 575px;
   height: 50vh;
   padding-left:1rem;
+}
+
+.paddingtop {
+  padding-top: 3%;
 }

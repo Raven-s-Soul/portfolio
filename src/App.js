@@ -25,6 +25,12 @@ function App() {
                 <Route path='portfolio/dev' element={<Dev/>}/>
                 <Route path='portfolio/' element={<Home/>}/>
             </Routes>
+
+
+
+
+
+
         </div>
       </Router>
   );
