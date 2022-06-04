@@ -8,7 +8,7 @@ function Navbar() {
         <div className='Navbar'>
 
             <Link to="portfolio/">
-            <h2>Portfolio</h2>
+            <h2 style={{textdecoration:"none", color:"white"}}>Portfolio</h2>
             </Link>
 
             <ul className='Links'>

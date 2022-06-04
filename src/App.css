@@ -71,3 +71,8 @@ a:visited {
 .paddingtop {
   padding-top: 3%;
 }
+
+li {
+  text-decoration: none;
+  color: white;
+}
