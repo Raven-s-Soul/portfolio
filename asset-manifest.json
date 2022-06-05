@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.59bc1631.chunk.css",
-  "main.js": "/portfolio/static/js/main.e26efd81.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.e26efd81.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.3b86412f.chunk.css",
+  "main.js": "/portfolio/static/js/main.fc5f65ff.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.fc5f65ff.chunk.js.map",
   "static/js/1.f12bf432.chunk.js": "/portfolio/static/js/1.f12bf432.chunk.js",
   "static/js/1.f12bf432.chunk.js.map": "/portfolio/static/js/1.f12bf432.chunk.js.map",
   "static/css/2.474c0064.chunk.css": "/portfolio/static/css/2.474c0064.chunk.css",
@@ -17,9 +17,9 @@
   "static/media/Uncertainties-EldenRing.png": "/portfolio/static/media/Uncertainties-EldenRing.2b9c0ebe.png",
   "static/media/Alicia_s_AlienAdventure.png": "/portfolio/static/media/Alicia_s_AlienAdventure.bf499263.png",
   "static/media/AutAut.png": "/portfolio/static/media/AutAut.1c9b926b.png",
-  "static/css/main.59bc1631.chunk.css.map": "/portfolio/static/css/main.59bc1631.chunk.css.map",
+  "static/css/main.3b86412f.chunk.css.map": "/portfolio/static/css/main.3b86412f.chunk.css.map",
   "static/css/2.474c0064.chunk.css.map": "/portfolio/static/css/2.474c0064.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.99627b67f0c4490df0a7f4e1530314a9.js": "/portfolio/precache-manifest.99627b67f0c4490df0a7f4e1530314a9.js",
+  "precache-manifest.ea277471f5f6a44f05cfc10d4d6f7758.js": "/portfolio/precache-manifest.ea277471f5f6a44f05cfc10d4d6f7758.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
