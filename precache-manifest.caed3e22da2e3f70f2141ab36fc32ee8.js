@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "f8d4315e154e559e5451",
-    "url": "/portfolio/static/css/main.743fa925.chunk.css"
+    "revision": "14d57e6d15c623af375c",
+    "url": "/portfolio/static/css/main.a3b7cc60.chunk.css"
   },
   {
-    "revision": "f8d4315e154e559e5451",
-    "url": "/portfolio/static/js/main.f8d4315e.chunk.js"
+    "revision": "14d57e6d15c623af375c",
+    "url": "/portfolio/static/js/main.14d57e6d.chunk.js"
   },
   {
-    "revision": "f12bf432d1b1b25fb939",
-    "url": "/portfolio/static/js/1.f12bf432.chunk.js"
+    "revision": "6a7bfa4df9242b40edff",
+    "url": "/portfolio/static/js/1.6a7bfa4d.chunk.js"
   },
   {
-    "revision": "923934fe3dbb883e073f",
-    "url": "/portfolio/static/css/2.474c0064.chunk.css"
+    "revision": "0dcbf78cf3143b6fb8dc",
+    "url": "/portfolio/static/css/2.c308fe33.chunk.css"
   },
   {
-    "revision": "923934fe3dbb883e073f",
-    "url": "/portfolio/static/js/2.923934fe.chunk.js"
+    "revision": "0dcbf78cf3143b6fb8dc",
+    "url": "/portfolio/static/js/2.0dcbf78c.chunk.js"
   },
   {
-    "revision": "4ee62a16aff34ec48acc",
-    "url": "/portfolio/static/js/runtime~main.4ee62a16.js"
+    "revision": "bc06c66b1f36861bba88",
+    "url": "/portfolio/static/js/runtime~main.bc06c66b.js"
   },
   {
     "revision": "511ffbc7e26545aa681aa665e1b42e38",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Uncertainties-EldenRing.2b9c0ebe.png"
   },
   {
+    "revision": "10cdb1f41f625fd743a74a00558702e8",
+    "url": "/portfolio/static/media/Abarei.10cdb1f4.png"
+  },
+  {
     "revision": "bf4992634884b37a1865180f8342d04c",
     "url": "/portfolio/static/media/Alicia_s_AlienAdventure.bf499263.png"
   },
@@ -52,11 +56,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/AutAut.1c9b926b.png"
   },
   {
+    "revision": "f685c73db91a0b9d2c02b48de5a5f4aa",
+    "url": "/portfolio/static/media/PurpleBreakpoint.f685c73d.png"
+  },
+  {
     "revision": "815f2359ecd2f342ced88aad7d3d848a",
     "url": "/portfolio/static/media/PictureAbout.815f2359.png"
   },
   {
-    "revision": "d2d0bdc0b5d277c02d62ee0334e7dd35",
+    "revision": "636ff79d5f30809b3841c206aba407e5",
     "url": "/portfolio/index.html"
   }
 ];
