@@ -34,7 +34,7 @@ class Dev extends Component {
                             <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://gitlab.com/sario-tedesco/jam-11-21';
+                                window.open('https://gitlab.com/sario-tedesco/jam-11-21');
                               }} className="btn btn-outline-danger">Go check</button>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ class Dev extends Component {
                           <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://globalgamejam.org/2022/games/aut-aut-9';
+                                window.open('https://globalgamejam.org/2022/games/aut-aut-9');
                               }} className="btn btn-outline-danger">Go check</button>
                         </div>
                   </div>
@@ -68,7 +68,7 @@ class Dev extends Component {
                           <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://drive.google.com/drive/folders/1jzR-pa10WMX29AF-w733s9HhSmJCMuNx?usp=sharing';
+                                window.open('https://drive.google.com/drive/folders/1jzR-pa10WMX29AF-w733s9HhSmJCMuNx?usp=sharing');
                               }} className="btn btn-outline-danger">Go check</button>
                       </div>
                   </div>

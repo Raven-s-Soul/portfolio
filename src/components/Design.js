@@ -49,7 +49,7 @@ class Design extends Component {
                             <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://docs.google.com/presentation/d/13LXzzE1bQXQWuCEluzaY3FD7iOn9y327_Cv6Gy_EHcs/edit?usp=sharing';
+                                window.open('https://docs.google.com/presentation/d/13LXzzE1bQXQWuCEluzaY3FD7iOn9y327_Cv6Gy_EHcs/edit?usp=sharing');
                               }} className="btn btn-outline-danger">Go check</button>
                         </div>
                     </div>
@@ -66,8 +66,13 @@ class Design extends Component {
                           <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://docs.google.com/document/d/1v2br63cFN1Fr27bQlx4ygebL2P3CEfKZgT-YCMOefyk/edit?usp=sharing';
+                                window.open('https://docs.google.com/document/d/1UZokSzlF_SqHq9bQ5SbRD30bFRtQrI0vNn-IE8_vBJ0/edit?usp=sharing');
                               }} className="btn btn-outline-danger">Go check</button>
+                          <button type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open('https://docs.google.com/document/d/1v2br63cFN1Fr27bQlx4ygebL2P3CEfKZgT-YCMOefyk/edit?usp=sharing');
+                              }} className="btn btn-outline-danger">Italian ver</button>
                         </div>
                   </div>
 
@@ -83,7 +88,7 @@ class Design extends Component {
                           <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://docs.google.com/spreadsheets/d/1h74pBPI8Yitim0J-WlAp3KoAd5mpNzeZqNByzFP4IbY/edit?usp=sharing';
+                                window.open('https://docs.google.com/spreadsheets/d/1h74pBPI8Yitim0J-WlAp3KoAd5mpNzeZqNByzFP4IbY/edit?usp=sharing');
                               }} className="btn btn-outline-danger">Go check</button>
                       </div>
                   </div>
@@ -100,8 +105,13 @@ class Design extends Component {
                           <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://docs.google.com/document/d/1mrueTnG4O_p_a1JosZehc33XA5HDcEEEXRGFvZsVLoY/edit?usp=sharing';
+                                window.open('https://docs.google.com/document/d/1vrz8qaVik4d4p4G9726KPJpC1O5_sluS0GaHrUUKYSY/edit?usp=sharing');
                               }} className="btn btn-outline-danger">Go check</button>
+                          <button type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open('https://docs.google.com/document/d/1mrueTnG4O_p_a1JosZehc33XA5HDcEEEXRGFvZsVLoY/edit?usp=sharing');
+                              }} className="btn btn-outline-danger">Italian ver</button>
                           </div>
                   </div>
 
@@ -117,8 +127,13 @@ class Design extends Component {
                           <button type="button"
                               onClick={(e) => {
                                 e.preventDefault();
-                                window.location.href='https://docs.google.com/document/d/1ciF6XcGldduHYx7LSGxSO8yi8HkapPfHjNy-FfulqwQ/edit?usp=sharing';
+                                window.open('https://docs.google.com/document/d/1Waezaq-ERABxgMCccBoNBO0U7z15gEsi68_UMBkU89c/edit?usp=sharing');
                               }} className="btn btn-outline-danger">Go check</button>
+                          <button type="button"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.open('https://docs.google.com/document/d/1ciF6XcGldduHYx7LSGxSO8yi8HkapPfHjNy-FfulqwQ/edit?usp=sharing');
+                              }} className="btn btn-outline-danger">Italian ver</button>
                       </div>
                   </div>
 
