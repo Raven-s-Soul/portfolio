@@ -41,7 +41,7 @@ class Design extends Component {
 
               <div className="col" >
                   <div className='paddingtop'>
-                    <div className="card" style={{maxWidth: "40vh", minWidth:"30vh"}}>
+                    <div className="card" style={{maxWidth: "45vh", minWidth:"25vh"}}>
                         <img src={blockudoku} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Mobile Game Design Blockudoku</h5>
@@ -54,7 +54,7 @@ class Design extends Component {
 
               <div className="col" >
                 <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "30vh", minWidth:"30vh"}}>
+                  <div className="card" style={{maxWidth: "45vh", minWidth:"45vh"}}>
                       <img src={fps} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">How I breake down FPS</h5>
@@ -67,7 +67,7 @@ class Design extends Component {
 
               <div className="col" >
               <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "30vh", minWidth:"30vh"}}>
+                  <div className="card" style={{maxWidth: "40vh", minWidth:"40vh"}}>
                       <img src={rpg} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">RPG Weapons and Armors</h5>
