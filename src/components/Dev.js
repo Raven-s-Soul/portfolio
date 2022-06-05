@@ -20,12 +20,12 @@ class Dev extends Component {
           <br/>
           <div className='container'>
             <hr/>
-            <div className='row'>
+            <div className='row g-3'>
 
               <div className="col-12 col-md-6 col-lg-4" >
-                  <div className='paddingtop'>
+
                     <div className="card" >
-                        <img src={Alicias_AlienAdventure} className="card-img-top" alt="..."/>
+                        <img src={Alicias_AlienAdventure} loading="lazy" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Alicia's Alien Adventure:<br/>Escape from GlurbGlorb!!</h5>
                             <p className="card-text"> That's my 1st ever game project, and jam was a 48h project on Unreal 4, and I worked as a Developer.<br/>
@@ -33,45 +33,39 @@ class Dev extends Component {
                             <a href="https://gitlab.com/sario-tedesco/jam-11-21" className="btn btn-outline-danger">Go check</a>
                         </div>
                     </div>
-                  </div>
+
               </div>
 
               <div className="col-12 col-md-6 col-lg-4" >
-                <div className='paddingtop'>
+
                   <div className="card" >
-                      <img src={AutAut} className="card-img-top" alt="..."/>
+                      <img src={AutAut} loading="lazy" className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">Aut Aut</h5>
                           <p className="card-text">That's my 2nd game jam, a 48h project on Unreal 4; I worked as a solo dev and did a bit of an artist, like doing the sprite of characters. The game concept is on dualism, so I used the level streaming to run two words and make the player free to complete platform and puzzle levels across two dimensions.</p>
                           <a href="https://globalgamejam.org/2022/games/aut-aut-9" className="btn btn-outline-danger">Go check</a>
                       </div>
                   </div>
-                </div>
+
               </div>
 
 
               <div className="col-12 col-md-6 col-lg-4" >
-              <div className='paddingtop'>
 
-                </div>
               </div>
 
               <div className="col-12 col-md-6 col-lg-4" >
-              <div className='paddingtop'>
 
-                </div>
+
+
               </div>
 
               <div className="col-12 col-md-6 col-lg-4" >
-                <div className='paddingtop'>
 
-                </div>
               </div>
 
               <div className="col-12 col-md-6 col-lg-4" >
-                <div className='paddingtop'>
 
-                </div>
               </div>
 
             </div>
