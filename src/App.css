@@ -147,3 +147,25 @@ a:visited {
     }
 }
 */
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(247, 86, 86, 0.199) ;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(1 10% 50% / 1) ;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(1 80% 15% / 1) ;
+}
+
+@supports (scrollbar-color: red blue){
+  *{
+    scrollbar-color: rgba(247, 86, 86, 0.199) hsl(1 10% 50% / 1) ;
+  }
+}

@@ -39,9 +39,9 @@ class Design extends Component {
             <hr/>
             <div className='row'>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
                   <div className='paddingtop'>
-                    <div className="card" style={{maxWidth: "45vh", minWidth:"25vh"}}>
+                    <div className="card" >
                         <img src={blockudoku} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Mobile Game Design Blockudoku</h5>
@@ -52,9 +52,9 @@ class Design extends Component {
                   </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
                 <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "45vh", minWidth:"45vh"}}>
+                  <div className="card" >
                       <img src={fps} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">How I breake down FPS</h5>
@@ -65,9 +65,9 @@ class Design extends Component {
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
               <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "40vh", minWidth:"40vh"}}>
+                  <div className="card" >
                       <img src={rpg} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">RPG Weapons and Armors</h5>
@@ -78,9 +78,9 @@ class Design extends Component {
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
               <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "30vh", minWidth:"30vh"}}>
+                  <div className="card" >
                       <img src={rts} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">Making a new RTS</h5>
@@ -91,9 +91,9 @@ class Design extends Component {
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
               <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "30vh", minWidth:"30vh"}}>
+                  <div className="card" >
                       <img src={uncertainties} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">Uncertainties inside Elden Ring</h5>
@@ -104,7 +104,7 @@ class Design extends Component {
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
               <div className='paddingtop'>
 
               </div>

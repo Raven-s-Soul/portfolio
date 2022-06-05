@@ -22,9 +22,9 @@ class Dev extends Component {
             <hr/>
             <div className='row'>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
                   <div className='paddingtop'>
-                    <div className="card" style={{maxWidth: "40vh", minWidth:"30vh"}}>
+                    <div className="card" >
                         <img src={Alicias_AlienAdventure} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Alicia's Alien Adventure:<br/>Escape from GlurbGlorb!!</h5>
@@ -36,9 +36,9 @@ class Dev extends Component {
                   </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
                 <div className='paddingtop'>
-                  <div className="card" style={{maxWidth: "30vh", minWidth:"30vh"}}>
+                  <div className="card" >
                       <img src={AutAut} className="card-img-top" alt="..."/>
                       <div className="card-body">
                           <h5 className="card-title">Aut Aut</h5>
@@ -50,25 +50,25 @@ class Dev extends Component {
               </div>
 
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
               <div className='paddingtop'>
 
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
               <div className='paddingtop'>
 
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
                 <div className='paddingtop'>
 
                 </div>
               </div>
 
-              <div className="col" >
+              <div className="col-12 col-md-6 col-lg-4" >
                 <div className='paddingtop'>
 
                 </div>
