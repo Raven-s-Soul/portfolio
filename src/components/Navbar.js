@@ -21,7 +21,7 @@ function Navbar() {
 
                     <div className='paddingtop'>
                         <Link to="portfolio/dev">
-                            <li>Dev</li>
+                            <li>Development</li>
                         </Link>
                     </div>
 
