@@ -8,11 +8,22 @@ import rpg from '../images/RPG.png';
 
 class Design extends Component {
 
+/*
   state = {cards:[
-    {id: 0, Title: "RPG Weapons and Armors", Description: "A quick example how I would balance armors and weapons inside an RPG.", Img: rpg , link:"https://www.w3schools.com"}
+    {id: 0, Title: "RPG Weapons and Armors", Description: "A quick example how I would balance armors and weapons inside an RPG.", Img: rpg , link:"https://www.google.com"}
 
   ]
 }
+
+// This go under <div className='row'>
+{this.state.cards.map(card => (
+                <Card
+                key={card.id}
+                card={card}
+                />
+              ))
+              }
+*/
 
   render(){
     return (
@@ -24,13 +35,12 @@ class Design extends Component {
             <hr/>
             <div className='row'>
 
-              {this.state.cards.map(card => (
-                <Card
-                key={card.id}
-                card={card}
-                />
-              ))
-              }
+            <Card
+            Title="RPG Weapons and Armors"
+            Description="A quick example how I would balance armors and weapons inside an RPG."
+            Img={rpg}
+            Link="www.google.com"
+            />
 
 
             </div>
