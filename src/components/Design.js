@@ -6,7 +6,7 @@ import fps from '../images/FPS.png';
 import rpg from '../images/RPG.png';
 import rts from '../images/RTS.png';
 import uncertainties from '../images/Uncertainties-EldenRing.png';
-
+import abarei from '../images/Abarei.png';
 
 
 
@@ -105,7 +105,15 @@ class Design extends Component {
               </div>
 
               <div className="col-12 col-md-6 col-lg-4" >
-
+                <div className="card" >
+                      <img src={abarei} loading="lazy" className="card-img-top" alt="..."/>
+                      <div className="card-body">
+                          <h5 className="card-title">Abarei</h5>
+                          <p className="card-text">That's a Unity Vigamus Academy Project. I worked as a designer and narrative of the game; the game genre is an endless runner where the Abarai seeks the collectibles to gather more power.
+                            <br/>WIP</p>
+                          <a href="#..." className="btn btn-outline-danger">Go check</a>
+                      </div>
+                  </div>
               </div>
 
             </div>

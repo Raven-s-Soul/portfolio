@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 //import Card from './card';
 import Alicias_AlienAdventure from '../images/Alicia_s_AlienAdventure.png';
 import AutAut from '../images/AutAut.png';
+import PurpleBreakpoint from '../images/PurpleBreakpoint.png';
 //import blockudoku from '../images/Blockudoku.png';
 //import blockudoku from '../images/Blockudoku.png';
 
@@ -51,7 +52,14 @@ class Dev extends Component {
 
 
               <div className="col-12 col-md-6 col-lg-4" >
-
+                  <div className="card" >
+                      <img src={PurpleBreakpoint} loading="lazy" className="card-img-top" alt="..."/>
+                      <div className="card-body">
+                          <h5 className="card-title">PurpleBreakpoint - Last Christmas</h5>
+                          <p className="card-text">That's an Unreal Vigamus Academy Project, where we had to complete the different tasks that were requested. The Concept is "Christmas in Australia"; I worked majorly as a dev and designed some areas in the game.</p>
+                          <a href="https://drive.google.com/drive/folders/1jzR-pa10WMX29AF-w733s9HhSmJCMuNx?usp=sharing" className="btn btn-outline-danger">Go check</a>
+                      </div>
+                  </div>
               </div>
 
               <div className="col-12 col-md-6 col-lg-4" >
