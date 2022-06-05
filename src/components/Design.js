@@ -133,8 +133,7 @@ class Design extends Component {
                             <br/>WIP</p>
                           <button type="button"
                               onClick={(e) => {
-                                e.preventDefault();
-                                window.location.href='http://google.com';
+                                alert("WIP - Not ready yet!");;
                               }} className="btn btn-outline-danger">Go check</button>
                       </div>
                   </div>
