@@ -13,7 +13,6 @@
 
 .brand-title {
   font-size: 1.5rem;
-  margin: .5rem;
   color: white;
 }
 .brand-title:hover {
@@ -46,7 +45,8 @@ li {
 }
 
 a:link {
-  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   text-decoration: none;
   color: white;
 }
@@ -93,7 +93,7 @@ a:visited {
 
 .abtext {
   text-align:start;
-  width: 50%;
+  width: 70%;
   max-width: 600px;
   height: 50vh;
   padding-left:1rem;
