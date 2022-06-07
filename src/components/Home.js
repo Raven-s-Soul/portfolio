@@ -11,7 +11,7 @@ function Home() {
                 <img src={Picture}  width="100%"    alt="A young cool bald guy in a suit" />
             </div>
             <div className='abtext'>
-                <h2>Hello, I'm <font color="#b10000" >S</font>ario <font color="#b10000" >T</font>edesco.<br/></h2>
+                <h2><font color="#b10000" >S</font>ario <font color="#b10000" >T</font>edesco<br/></h2>
 
                 Hi, I'm Sario Tedesco! I'm a Computer Science and Telecommunications expert.<br/>
                 I live in Italy, and my greatest passions are Videogames and Anime.<br/>
