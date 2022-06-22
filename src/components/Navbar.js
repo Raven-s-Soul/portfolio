@@ -5,19 +5,19 @@ import {useRef} from 'react';
 
 function Navbar() {
 
-    //document.getElementById('toggle-button')
+    // !document.getElementById('toggle-button')
     const togglebuttonref = useRef();
-    //document.getElementById('navbar-links')
+    // !document.getElementById('navbar-links')
     const navbarlinksref = useRef();
 
-    //function that active or disactive navbar-links display property
+    // !function that active or disactive navbar-links display property
     const ReactiveNavBar = () => {
         if(togglebuttonref){
                 navbarlinksref.current.classList.toggle('active')
         }
     }
 
-    //end of logic  html and css ↓↓↓↓
+    // ? end of logic  html and css ↓↓↓↓
 
   return (
     <div className="App">
