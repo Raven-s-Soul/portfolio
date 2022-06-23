@@ -1,54 +1,54 @@
-import '../App.css';
-import React from 'react'
-import {Link} from "react-router-dom";
-import {useRef} from 'react';
+import "../App.css";
+import React from "react";
+import { Link } from "react-router-dom";
+import { useRef } from "react";
 
 function Navbar() {
+  // !document.getElementById('toggle-button')
+  const togglebuttonref = useRef();
+  // !document.getElementById('navbar-links')
+  const navbarlinksref = useRef();
 
-    // !document.getElementById('toggle-button')
-    const togglebuttonref = useRef();
-    // !document.getElementById('navbar-links')
-    const navbarlinksref = useRef();
-
-    // !function that active or disactive navbar-links display property
-    const ReactiveNavBar = () => {
-        if(togglebuttonref){
-                navbarlinksref.current.classList.toggle('active')
-        }
+  // !function that active or disactive navbar-links display property
+  const ReactiveNavBar = () => {
+    if (togglebuttonref) {
+      navbarlinksref.current.classList.toggle("active");
     }
+  };
 
-    // ? end of logic  html and css ↓↓↓↓
+  // ? end of logic  html and css ↓↓↓↓
 
   return (
     <div className="App">
-        <div className='navbar'>
+      <div className="navbar">
+        <Link to="">
+          <div className="brand-title">Portfolio</div>
+        </Link>
 
-            <Link to="portfolio/">
-            <div className='brand-title'>Portfolio</div>
+        <a
+          href={() => false}
+          ref={togglebuttonref}
+          on
+          onClick={ReactiveNavBar}
+          className="toggle-button"
+        >
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </a>
+
+        <div ref={navbarlinksref} className="navbar-links">
+          <ul>
+            <Link to="design">
+              <li>Design</li>
             </Link>
 
-            <a href={() => false} ref={togglebuttonref} on onClick={ReactiveNavBar} className='toggle-button'>
-                    <span className='bar'></span>
-                    <span className='bar'></span>
-                    <span className='bar'></span>
-                </a>
-
-                <div ref={navbarlinksref} className='navbar-links'>
-                    <ul>
-
-                                <Link to="portfolio/design">
-                                    <li>Design</li>
-                                </Link>
-
-                                <Link to="portfolio/dev">
-                                    <li>Development</li>
-                                </Link>
-
-
-                    </ul>
-                </div>
-
+            <Link to="dev">
+              <li>Development</li>
+            </Link>
+          </ul>
         </div>
+      </div>
     </div>
   );
 }
