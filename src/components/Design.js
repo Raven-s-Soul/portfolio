@@ -74,7 +74,7 @@ class Design extends Component {
                   alt="..."
                 />
                 <div className="card-body">
-                  <h5 className="card-title">How I breake down FPS</h5>
+                  <h5 className="card-title">How I break down FPS</h5>
                   <p className="card-text">
                     FPS are different from past, now is hard talking about a
                     pure fps, but they got some consistency on the evolving of
