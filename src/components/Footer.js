@@ -27,6 +27,7 @@ function Footer() {
               input.select();
               var result = document.execCommand("copy");
               document.body.removeChild(input);
+              alert("Copied Raven's Soul#9583 in the clipboard");
               return result;
             }}
           >
@@ -36,7 +37,7 @@ function Footer() {
               className="footer-Img"
               alt="..."
             />
-            Raven's Soul#9583
+            {/*Raven's Soul#9583*/}
           </button>
 
           <button
@@ -48,7 +49,7 @@ function Footer() {
             }}
           >
             <img src={GitHub} loading="lazy" className="footer-Img" alt="..." />
-            Sario-Tedesco
+            {/*Sario-Tedesco*/}
           </button>
           <button
             type="button"
@@ -59,7 +60,7 @@ function Footer() {
             }}
           >
             <img src={Gmail} loading="lazy" className="footer-Img" alt="..." />
-            sariotedesco@gmail.com
+            {/*sariotedesco@gmail.com*/}
           </button>
           <button
             type="button"
@@ -75,7 +76,7 @@ function Footer() {
               className="footer-Img"
               alt="..."
             />
-            Sario Tedesco
+            {/*Sario Tedesco*/}
           </button>
         </div>
         <hr />
