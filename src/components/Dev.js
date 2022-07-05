@@ -11,10 +11,10 @@ import PurpleBreakpoint from "../images/PurpleBreakpoint.png";
 class Dev extends Component {
   render() {
     return (
-      <div className="App">
-        <br />
-        <h1>Development</h1>
-        <br />
+      <div className="page">
+        <div className="pageTitle">
+          <h1>Development</h1>
+        </div>
         <div className="container">
           <hr />
           <div className="row g-3">

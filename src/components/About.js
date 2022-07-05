@@ -3,7 +3,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="App">
+    <div className="page">
       <br />
       <h1>Welcome to my Portfolio</h1>
       <h4>

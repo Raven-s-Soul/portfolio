@@ -28,10 +28,10 @@ class Design extends Component {
 
   render() {
     return (
-      <div className="App">
-        <br />
-        <h1>Design</h1>
-        <br />
+      <div className="page">
+        <div className="pageTitle">
+          <h1>Design</h1>
+        </div>
         <div className="container">
           <hr />
           <div className="row g-3">

@@ -4,9 +4,18 @@
   background: #111111;
   width: 100%;
   color: ivory;
-  min-height: 100%;
   background-size: cover;
 
+}
+
+.page {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.pageTitle {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .Navbar {
@@ -18,7 +27,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-image: linear-gradient(to right, #870101   , #4e00ff);
+  background-image: linear-gradient(to right, #870101   , #4e00ff  );
   color: white;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -94,7 +103,7 @@ a:visited {
 .container {
   display: flex;
   width: auto;
-  height: 100%;
+  height: auto;
 }
 
 .container2 {
@@ -118,6 +127,8 @@ a:visited {
   max-width: 600px;
   height: 50vh;
   padding-left:1rem;
+  max-height: 60vh;
+  text-overflow: ellipsis;
 }
 
 .paddingtop {
@@ -157,7 +168,15 @@ a:visited {
  text-align: center;
 }
 
-@media (max-width: 600px){
+.footer {
+  padding-bottom: 0.3rem;
+  width: 100%;
+  margin-top:auto;
+  clear: both;
+}
+
+
+@media (max-width: 775px){
     .toggle-button {
       display: flex;
     }
@@ -198,19 +217,19 @@ a:visited {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(247, 86, 86, 0.199) ;
+  background: #111111 ;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(1 10% 50% / 1) ;
+  background: #4e00ff   ;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(1 80% 15% / 1) ;
+  background: #393939   ;
 }
 
 @supports (scrollbar-color: red blue){
   *{
-    scrollbar-color: rgba(247, 86, 86, 0.199) hsl(1 10% 50% / 1) ;
+    scrollbar-color: #4e00ff #111111 ;
   }
 }

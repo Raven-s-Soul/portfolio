@@ -19,7 +19,7 @@ function Navbar() {
   // ? end of logic  html and css ↓↓↓↓
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="Navbar">
         <Link to="">
           <div className="brand-title">Portfolio</div>
