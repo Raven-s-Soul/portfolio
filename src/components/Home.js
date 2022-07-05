@@ -7,13 +7,11 @@ function Home() {
     <div className="App">
       <br />
       <div className="container">
-        <div className="left">
-          <img
-            src={Picture}
-            width="100%"
-            alt="A young cool bald guy in a suit"
-          />
-        </div>
+        <img
+          src={Picture}
+          className="leftImg"
+          alt="A young cool bald guy in a suit"
+        />
         <div className="abtext">
           <h2>
             <font color="#b10000">S</font>ario <font color="#b10000">T</font>
@@ -39,6 +37,20 @@ function Home() {
           but what I like the most is doing great teamwork, and I like it even
           more when everyone works perfectly with others that look like some
           gears inside a pocket watch.
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="container2">
+        <div className="GoTo">
+          <h3>Designs</h3>
+          <br />
+          <button className="btn btn-outline-danger">Design</button>
+        </div>
+        <div className="GoTo">
+          <h3>Projects and past works!</h3>
+          <br />
+          <button className="btn btn-outline-danger">Development</button>
         </div>
       </div>
     </div>

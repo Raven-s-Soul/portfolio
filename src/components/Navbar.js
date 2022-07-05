@@ -6,10 +6,10 @@ import { useRef } from "react";
 function Navbar() {
   // !document.getElementById('toggle-button')
   const togglebuttonref = useRef();
-  // !document.getElementById('navbar-links')
+  // !document.getElementById('Navbar-links')
   const navbarlinksref = useRef();
 
-  // !function that active or disactive navbar-links display property
+  // !function that active or disactive Navbar-links display property
   const ReactiveNavBar = () => {
     if (togglebuttonref) {
       navbarlinksref.current.classList.toggle("active");
@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <div className="App">
-      <div className="navbar">
+      <div className="Navbar">
         <Link to="">
           <div className="brand-title">Portfolio</div>
         </Link>
@@ -37,7 +37,7 @@ function Navbar() {
           <span className="bar"></span>
         </a>
 
-        <div ref={navbarlinksref} className="navbar-links">
+        <div ref={navbarlinksref} className="Navbar-links">
           <ul>
             <Link to="design">
               <li>Design</li>

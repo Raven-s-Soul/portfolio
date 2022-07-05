@@ -1,14 +1,27 @@
 .App {
   text-align: center;
+  margin-top: 52px;
+  background: #111111;
+  width: 100%;
+  color: ivory;
+  min-height: 100%;
+  background-size: cover;
+
 }
 
-.navbar {
+.Navbar {
+  z-index: 100;
+  position:fixed;
+  margin-top: 0;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-image: linear-gradient(to right, #b10000  , #870101);
+  background-image: linear-gradient(to right, #870101   , #4e00ff);
   color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .brand-title {
@@ -20,21 +33,21 @@
   color: white;
 }
 
-.navbar-links {
+.Navbar-links {
   display: flex;
 }
 
-.navbar-links ul {
+.Navbar-links ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.navbar-links li {
+.Navbar-links li {
   list-style: none;
 }
 
-.navbar-links li a {
+.Navbar-links li a {
   text-decoration: none;
   color: white;
 }
@@ -81,14 +94,22 @@ a:visited {
 .container {
   display: flex;
   width: auto;
+  height: 100%;
+}
+
+.container2 {
+  display: flex;
+  width: auto;
   height: auto;
 }
 
-.left {
+.leftImg {
   text-align:end;
-  width: 33%;
-  height: 50%;
+  display: block;
+  max-width: 28%;
+  height: 100%;
   padding-right:1rem;
+  margin-top: 0% ;
 }
 
 .abtext {
@@ -121,29 +142,53 @@ a:visited {
   border-radius: 10px;
 }
 
+.card-body{
+  background-color: #333333;
+}
+
+.card :hover{
+  background-color: #1a1919;
+}
+
+.GoTo{
+ display: block ;
+ width: 50%;
+ height: auto;
+ text-align: center;
+}
 
 @media (max-width: 600px){
     .toggle-button {
       display: flex;
     }
 
-    .navbar-links {
+    .Navbar-links {
       display: none;
       width: 100%;
     }
 
-    .navbar {
+    .Navbar {
       flex-direction: column;
       align-items: flex-start ;
     }
 
-    .navbar-links ul {
+    .Navbar-links ul {
       flex-direction: column;
       width: 100%;
     }
 
-    .navbar-links.active {
+    .Navbar-links.active {
       display: flex;
+    }
+
+    .container{
+      font-size: 12px;
+    }
+
+    .leftImg{
+      max-width: 28%;
+      padding-right:0rem;
+      margin-top: 10% ;
     }
 }
 

@@ -1,6 +1,7 @@
 import "../App.css";
 import React, { Component } from "react";
 //import Card from './card';
+import Blanc from "../images/Blanc.png";
 import Alicias_AlienAdventure from "../images/Alicia_s_AlienAdventure.png";
 import AutAut from "../images/AutAut.png";
 import PurpleBreakpoint from "../images/PurpleBreakpoint.png";
@@ -114,6 +115,81 @@ class Dev extends Component {
                       window.open(
                         "https://drive.google.com/drive/folders/1jzR-pa10WMX29AF-w733s9HhSmJCMuNx?usp=sharing"
                       );
+                    }}
+                    className="btn btn-outline-danger"
+                  >
+                    Go check
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="card">
+                <img
+                  src={Blanc}
+                  loading="lazy"
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Placeholder</h5>
+                  <p className="card-text"></p>
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.open("https://sario-tedesco.github.io/portfolio/");
+                    }}
+                    className="btn btn-outline-danger"
+                  >
+                    Go check
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="card">
+                <img
+                  src={Blanc}
+                  loading="lazy"
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Placeholder</h5>
+                  <p className="card-text"></p>
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.open("https://sario-tedesco.github.io/portfolio/");
+                    }}
+                    className="btn btn-outline-danger"
+                  >
+                    Go check
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="card">
+                <img
+                  src={Blanc}
+                  loading="lazy"
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Placeholder</h5>
+                  <p className="card-text"></p>
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.open("https://sario-tedesco.github.io/portfolio/");
                     }}
                     className="btn btn-outline-danger"
                   >
