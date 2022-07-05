@@ -1,5 +1,9 @@
 import "../App.css";
 import React, { useState, useEffect } from "react";
+import Discord from "../images/Discord.png";
+import GitHub from "../images/github-logo.png";
+import Gmail from "../images/Gmail.png";
+import Linkedin from "../images/Linkedin.png";
 
 function Footer() {
   const [Year, setYear] = useState(0);
@@ -12,18 +16,67 @@ function Footer() {
     <div className="app">
       <div className="footer">
         <hr />
-        <div className="container">
-          <section>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </section>
+        <div className="FooterLinks">
+          <button
+            type="button"
+            className="CustomButton"
+            onClick={(e) => {
+              var input = document.createElement("input");
+              input.setAttribute("value", "Raven's Soul#9583");
+              document.body.appendChild(input);
+              input.select();
+              var result = document.execCommand("copy");
+              document.body.removeChild(input);
+              return result;
+            }}
+          >
+            <img
+              src={Discord}
+              loading="lazy"
+              className="footer-Img"
+              alt="..."
+            />
+            Raven's Soul#9583
+          </button>
+
+          <button
+            type="button"
+            className="CustomButton"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open("https://github.com/sario-tedesco");
+            }}
+          >
+            <img src={GitHub} loading="lazy" className="footer-Img" alt="..." />
+            Sario-Tedesco
+          </button>
+          <button
+            type="button"
+            className="CustomButton"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open("mailto:sariotedesco@gmail.com");
+            }}
+          >
+            <img src={Gmail} loading="lazy" className="footer-Img" alt="..." />
+            sariotedesco@gmail.com
+          </button>
+          <button
+            type="button"
+            className="CustomButton"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open("https://www.linkedin.com/in/sario-tedesco/");
+            }}
+          >
+            <img
+              src={Linkedin}
+              loading="lazy"
+              className="footer-Img"
+              alt="..."
+            />
+            Sario Tedesco
+          </button>
         </div>
         <hr />
         <section>

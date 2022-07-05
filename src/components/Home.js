@@ -14,7 +14,7 @@ function Home() {
         />
         <div className="abtext">
           <h2>
-            <font color="#870101">S</font>ario <font color="#870101">T</font>
+            <font color="#b10000 ">S</font>ario <font color="#b10000 ">T</font>
             edesco
           </h2>
           Hi, I'm Sario Tedesco! I'm a Computer Science and Telecommunications
