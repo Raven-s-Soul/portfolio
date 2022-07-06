@@ -15,6 +15,16 @@
   z-index: -9;
 }
 
+.homepage{
+  text-align: center;
+  min-height: 100vh;
+  z-index: -9;
+  background-image: url("./images/FullLogoEmpty.png");
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: contain;
+}
+
 .pageTitle {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -285,6 +295,7 @@ a:visited {
 
 .customBtn-fade{
   overflow: hidden ;
+  border: solid;
   border-radius: 30px;
   background-color: transparent;
   box-shadow: 0 0 0 0 #870101, 0 0 0 0 #4e00ff;

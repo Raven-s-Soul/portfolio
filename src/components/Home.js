@@ -5,13 +5,14 @@ import Picture from "../images/PictureAbout.png";
 
 function Home() {
   return (
-    <div className="page">
+    //! className="homepage" => Logo  | className="page" => No Logo
+    <div className="homepage">
       <div className="pageTitle" />
       <div className="container">
         <img
           src={Picture}
           className="leftImg"
-          alt="A young cool bald guy in a suit"
+          alt="A cool young bold guy in a suit"
         />
         <div className="abtext">
           <h2>
