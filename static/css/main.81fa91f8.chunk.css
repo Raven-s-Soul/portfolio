@@ -10,7 +10,13 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxyge
 
   !HomePage
 
-*/.container{display:flex;width:auto;height:auto;overflow:auto}.leftImg{text-align:end;display:block;max-width:28%;height:100%;padding-right:1rem;margin-top:0}.abtext{text-align:start;width:70%;max-width:600px;height:50vh;padding-left:1rem;max-height:60vh;text-overflow:ellipsis}.paddingtop{padding-top:3%}.toggle-button{position:absolute;top:1rem;right:1rem;display:none;flex-direction:column;justify-content:space-between;width:30px;height:21px}.toggle-button .bar{height:3px;width:100%;background-color:#fff;border-radius:10px}.card-body{background-color:#333}.card :hover{background-color:#1a1919}
+*/.container{display:flex;width:auto;height:auto;overflow:auto}.leftImg{text-align:end;display:block;max-width:28%;height:100%;padding-right:1rem;margin-top:0}.abtext{text-align:start;width:70%;max-width:600px;height:50vh;padding-left:1rem;max-height:60vh;text-overflow:ellipsis}.paddingtop{padding-top:3%}.toggle-button{position:absolute;top:1rem;right:1rem;display:none;flex-direction:column;justify-content:space-between;width:30px;height:21px}.toggle-button .bar{height:3px;width:100%;background-color:#fff;border-radius:10px}
+
+/*
+
+  !Cards Dev & Design
+
+*/.card{background-color:transparent!important}.card-body{background-color:#333;border:ivory}.card :hover{background-color:#1a1919}
 
 /*
 
@@ -49,4 +55,4 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxyge
   !Scrollbar
 
 */::-webkit-scrollbar{width:1rem}::-webkit-scrollbar-track{background:#111}::-webkit-scrollbar-thumb{background:#4e00ff}::-webkit-scrollbar-thumb:hover{background:#393939}@supports (scrollbar-color:red blue){*{scrollbar-color:#4e00ff #111}}
-/*# sourceMappingURL=main.6b2a2cbc.chunk.css.map */
+/*# sourceMappingURL=main.81fa91f8.chunk.css.map */
