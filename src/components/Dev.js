@@ -30,16 +30,16 @@ class Dev extends Component {
                   <h5 className="card-title">
                     Alicia's Alien Adventure:
                     <br />
-                    Escape from GlurbGlorb!!
+                    Escape from GlrubGlorb!!
                   </h5>
                   <p className="card-text">
                     {" "}
-                    That's my 1st ever game project, and jam was a 48h project
+                    That's my 1st ever game project, and Jam was a 48h project
                     on Unreal 4, and I worked as a Developer.
                     <br />
                     We made a 2-player 2D sidescroller game, where Alicia (main
-                    character) uses a high-technological assistant Matrix(her
-                    self-designed wheelchair) to escape from Glurbglorbian
+                    character) uses a high-tech assistant Matrix(her
+                    self-designed wheelchair) to escape ther from Glurbglorbian
                     Empire.
                   </p>
                   <button
@@ -68,8 +68,8 @@ class Dev extends Component {
                   <h5 className="card-title">Aut Aut</h5>
                   <p className="card-text">
                     That's my 2nd game jam, a 48h project on Unreal 4; I worked
-                    as a solo dev and did a bit of an artist, like doing the
-                    sprite of characters. The game concept is on dualism, so I
+                    as a solo dev and I did a bit of art, like doing the
+                    characters sprite. The game concept is about dualism, so I
                     used the level streaming to run two words and make the
                     player free to complete platform and puzzle levels across
                     two dimensions.

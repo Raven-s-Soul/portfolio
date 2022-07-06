@@ -1,5 +1,6 @@
 import "../App.css";
 import React from "react";
+import { Link } from "react-router-dom";
 import Picture from "../images/PictureAbout.png";
 
 function Home() {
@@ -35,15 +36,18 @@ function Home() {
         </div>
       </div>
       <div className="container2">
-        <div className="GoTo">
-          <h3>Designs</h3>
-          <br />
-          <button className="btn btn-outline-danger">Design</button>
-        </div>
-        <div className="GoTo">
-          <h3>Projects and past works!</h3>
-          <br />
-          <button className="btn btn-outline-danger">Development</button>
+        {/*!TODO left pice?*/}
+        <div className="container3">
+          <div className="GoToDesign">
+            <Link to="design" className="wrapperGoTo">
+              Design
+            </Link>
+          </div>
+          <div className="GoToDev">
+            <Link to="dev" className="wrapperGoTo">
+              Development
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -76,9 +76,9 @@ class Design extends Component {
                 <div className="card-body">
                   <h5 className="card-title">How I would Break down FPS</h5>
                   <p className="card-text">
-                    FPS are different from past, now is hard talking about a
-                    pure fps, but they got some consistency on the evolving of
-                    the genre.
+                    FPS are different from the past, now it's hard talking about
+                    a pure fps, but they got some consistency on the evolution
+                    of the genre.
                   </p>
                   <button
                     type="button"
@@ -119,7 +119,7 @@ class Design extends Component {
                 <div className="card-body">
                   <h5 className="card-title">RPG Weapons and Armors</h5>
                   <p className="card-text">
-                    A quick example how I would balance armors and weapons
+                    A quick example of how I would balance armors and weapons
                     inside an RPG.
                   </p>
                   <button
@@ -149,8 +149,8 @@ class Design extends Component {
                 <div className="card-body">
                   <h5 className="card-title">Making a new RTS</h5>
                   <p className="card-text">
-                    I made the concept for a new RTS that is based on use only 3
-                    enemy.
+                    I made the concept for a new RTS that is based on only 3
+                    enemy types.
                   </p>
                   <button
                     type="button"
@@ -193,7 +193,7 @@ class Design extends Component {
                     Uncertainties inside Elden Ring
                   </h5>
                   <p className="card-text">
-                    I tried to found out all the uncertainties inside the title
+                    I tried to find out all the uncertainties inside the title
                     of FromSoftware.
                   </p>
                   <button
@@ -236,7 +236,7 @@ class Design extends Component {
                   <h5 className="card-title">Abarei GDD</h5>
                   <p className="card-text">
                     That's a Unity Vigamus Academy Project. I worked as a
-                    designer and narrative of the game; the game genre is an
+                    designer and writer of the game; the game genre is an
                     endless runner where the Abarai seeks the collectibles to
                     gather more power.
                     <br />

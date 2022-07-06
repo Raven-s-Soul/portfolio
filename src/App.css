@@ -107,9 +107,21 @@ a:visited {
 }
 
 .container2 {
+  max-width: 1560px;
+  margin: 0px auto;
   display: flex;
-  width: auto;
-  height: auto;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.container3 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .leftImg {
@@ -161,9 +173,30 @@ a:visited {
   background-color: #1a1919;
 }
 
-.GoTo{
- width: 50%;
- height: auto;
+.GoToDesign{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 1.5625rem;
+  margin-bottom: 0px;
+  flex: 1 1 100%;
+
+}
+.GoToDev{
+  margin-left: 1.5625rem;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  flex: 1 1 100%;
+}
+
+.wrapperGoTo {
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  /*display: flex;    for custom grid*/
+  padding: 10px 0px;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 .footer {
@@ -175,25 +208,25 @@ a:visited {
 }
 
 .CustomButton {
-
-    font-weight: 400;
-    line-height: 1.5;
-    color: ivory;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
 }
 
 .footer-Img{
   max-height: 30px;
-  padding-right: 10px;
   max-width: 30px;
 }
 
@@ -220,6 +253,7 @@ a:visited {
 
     .Navbar-links ul {
       flex-direction: column;
+      padding-top: 0.275rem;
       width: 100%;
     }
 
