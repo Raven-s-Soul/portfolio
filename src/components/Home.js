@@ -36,18 +36,18 @@ function Home() {
         </div>
       </div>
       <div className="container2">
-        {/*!TODO left pice?*/}
+        {/* //!TODO left pice? */}
         <div className="container3">
-          <div className="GoToDesign">
-            <Link to="design" className="wrapperGoTo">
-              Design
-            </Link>
-          </div>
-          <div className="GoToDev">
-            <Link to="dev" className="wrapperGoTo">
-              Development
-            </Link>
-          </div>
+          <Link to="design" className="wrapperGoTo GoTo-Design">
+            <button type="button" className="customBtn customBtn-mirrors">
+              <div className="textToGo">More about my Design Projects</div>
+            </button>
+          </Link>
+          <Link to="dev" className="wrapperGoTo GoTo-Dev">
+            <button type="button" className="customBtn customBtn-fade">
+              <div className="textToGo">More about my Game Projects</div>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

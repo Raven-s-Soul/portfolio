@@ -19,7 +19,7 @@ function Footer() {
         <div className="FooterLinks">
           <button
             type="button"
-            className="CustomButton"
+            className="FooterButton"
             onClick={(e) => {
               var input = document.createElement("input");
               input.setAttribute("value", "Raven's Soul#9583");
@@ -42,7 +42,7 @@ function Footer() {
 
           <button
             type="button"
-            className="CustomButton"
+            className="FooterButton"
             onClick={(e) => {
               e.preventDefault();
               window.open("https://github.com/sario-tedesco");
@@ -53,7 +53,7 @@ function Footer() {
           </button>
           <button
             type="button"
-            className="CustomButton"
+            className="FooterButton"
             onClick={(e) => {
               e.preventDefault();
               window.open("mailto:sariotedesco@gmail.com");
@@ -72,7 +72,7 @@ function Footer() {
           </button>
           <button
             type="button"
-            className="CustomButton"
+            className="FooterButton"
             onClick={(e) => {
               e.preventDefault();
               window.open("https://www.linkedin.com/in/sario-tedesco/");
