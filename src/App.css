@@ -61,6 +61,7 @@
   color: white;
 }
 
+
 li {
   text-decoration: none;
   color: white;
@@ -269,6 +270,11 @@ a:visited {
       max-width: 28%;
       padding-right:0rem;
       margin-top: 10% ;
+    }
+
+    .Navbar-links li{
+      margin-bottom: 0.175rem;
+      margin-top: 0.175rem;
     }
 }
 
