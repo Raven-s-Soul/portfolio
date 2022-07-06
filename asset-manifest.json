@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.277b5432.chunk.css",
-  "main.js": "/portfolio/static/js/main.ae4b8d89.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.ae4b8d89.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.4dfe3716.chunk.css",
+  "main.js": "/portfolio/static/js/main.b32b9db6.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.b32b9db6.chunk.js.map",
   "static/js/1.4bb05d8f.chunk.js": "/portfolio/static/js/1.4bb05d8f.chunk.js",
   "static/js/1.4bb05d8f.chunk.js.map": "/portfolio/static/js/1.4bb05d8f.chunk.js.map",
   "static/css/2.782775ee.chunk.css": "/portfolio/static/css/2.782775ee.chunk.css",
@@ -22,9 +22,9 @@
   "static/media/Discord.png": "/portfolio/static/media/Discord.e3c3400e.png",
   "static/media/github-logo.png": "/portfolio/static/media/github-logo.b8494c0b.png",
   "static/media/Gmail.png": "/portfolio/static/media/Gmail.5ff0ee99.png",
-  "static/css/main.277b5432.chunk.css.map": "/portfolio/static/css/main.277b5432.chunk.css.map",
+  "static/css/main.4dfe3716.chunk.css.map": "/portfolio/static/css/main.4dfe3716.chunk.css.map",
   "static/css/2.782775ee.chunk.css.map": "/portfolio/static/css/2.782775ee.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.d22329dceeea8d4a703c6486b6f654b4.js": "/portfolio/precache-manifest.d22329dceeea8d4a703c6486b6f654b4.js",
+  "precache-manifest.0037ea4cfa35a0b7907b7600b1b96062.js": "/portfolio/precache-manifest.0037ea4cfa35a0b7907b7600b1b96062.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
