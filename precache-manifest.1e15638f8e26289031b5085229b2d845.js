@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f23c61f1c10646beb0fa",
+    "revision": "cd3795d557600ef333ad",
     "url": "/portfolio/static/css/main.81fa91f8.chunk.css"
   },
   {
-    "revision": "f23c61f1c10646beb0fa",
-    "url": "/portfolio/static/js/main.f23c61f1.chunk.js"
+    "revision": "cd3795d557600ef333ad",
+    "url": "/portfolio/static/js/main.cd3795d5.chunk.js"
   },
   {
     "revision": "4bb05d8fed1e4d6e8559",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/FullLogoEmpty.60b25fcc.png"
   },
   {
-    "revision": "f464d10025926b32c05bace5846a9197",
-    "url": "/portfolio/static/media/Blockudoku.f464d100.png"
+    "revision": "36fe6deb081621e0c75b5853914d1b6c",
+    "url": "/portfolio/static/media/Blockudoku.36fe6deb.png"
   },
   {
     "revision": "6566dd54528b783fea376a4547ed6b9f",
@@ -44,28 +44,28 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/RTS.cbbbc5e6.png"
   },
   {
-    "revision": "6cd8357906f9ea8def3ef72989e1848e",
-    "url": "/portfolio/static/media/Uncertainties-EldenRing.6cd83579.png"
+    "revision": "be000cb6b74209f40b4aa6bb6d6f3143",
+    "url": "/portfolio/static/media/Uncertainties-EldenRing.be000cb6.png"
   },
   {
-    "revision": "27d9e46378a2ba9ce4a96d5bc89f4052",
-    "url": "/portfolio/static/media/Abarei.27d9e463.png"
+    "revision": "d18fe9bb97d9f5a1e4402aedec4980c0",
+    "url": "/portfolio/static/media/Abarei.d18fe9bb.png"
   },
   {
-    "revision": "bf4992634884b37a1865180f8342d04c",
-    "url": "/portfolio/static/media/Alicia_s_AlienAdventure.bf499263.png"
+    "revision": "99fc86921371c5b99a06ea1f8195f47d",
+    "url": "/portfolio/static/media/Alicia_s_AlienAdventure.99fc8692.png"
   },
   {
-    "revision": "1c9b926b27ac66fb1ad56476b6692e9c",
-    "url": "/portfolio/static/media/AutAut.1c9b926b.png"
+    "revision": "7f8890150389c59f6bf82e413c87decc",
+    "url": "/portfolio/static/media/AutAut.7f889015.png"
   },
   {
-    "revision": "f685c73db91a0b9d2c02b48de5a5f4aa",
-    "url": "/portfolio/static/media/PurpleBreakpoint.f685c73d.png"
+    "revision": "fb3e6130c6ead4773adab227ed8eb1af",
+    "url": "/portfolio/static/media/PurpleBreakpoint.fb3e6130.png"
   },
   {
-    "revision": "815f2359ecd2f342ced88aad7d3d848a",
-    "url": "/portfolio/static/media/PictureAbout.815f2359.png"
+    "revision": "be271e09960b9c064634de2b60bb5c9b",
+    "url": "/portfolio/static/media/PictureAbout.be271e09.png"
   },
   {
     "revision": "e3c3400e875fc53c54dad5ca9934b4b9",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Gmail.5ff0ee99.png"
   },
   {
-    "revision": "668460a7d844cb908970cd7ebdb8c27e",
+    "revision": "036fd58f1481162b7e2f2198369db37e",
     "url": "/portfolio/index.html"
   }
 ];
