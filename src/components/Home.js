@@ -45,7 +45,7 @@ function Home() {
             </button>
           </Link>
           <Link to="dev" className="wrapperGoTo GoTo-Dev">
-            <button type="button" className="customBtn customBtn-fade">
+            <button type="button" className="customBtn customBtn-mirrors">
               <div className="textToGo">More about my Game Projects</div>
             </button>
           </Link>
