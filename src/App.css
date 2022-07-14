@@ -19,7 +19,7 @@
   text-align: center;
   min-height: 100vh;
   z-index: -9;
-  background-image: url("./images/FullLogoEmpty.png");
+  background-image: url("./images/FullLogoEmpty.gif");
   background-repeat: no-repeat;
   background-position: center center ;
   background-size: contain;
@@ -28,6 +28,7 @@
 .pageTitle {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  backdrop-filter: blur(1px);
 }
 
 /*
@@ -131,6 +132,7 @@ a:visited {
   width: auto;
   height: auto;
   overflow: auto;
+  backdrop-filter: blur(1px);
 }
 
 .leftImg {
@@ -146,7 +148,7 @@ a:visited {
   text-align:start;
   width: 70%;
   max-width: 600px;
-  height: 50vh;
+  /*height: 50vh;*/
   padding-left:1rem;
   max-height: 60vh;
   text-overflow: ellipsis;
@@ -217,6 +219,7 @@ a:visited {
   -webkit-box-pack: justify;
   justify-content: space-between;
   width: 100%;
+  padding-top: 11.7vh;
   /*overflow: hidden; */
 }
 
@@ -466,6 +469,7 @@ transform: rotate(180deg);
   .container{
     font-size: 10px;
   }
+
   /* !Button */
   .customBtn{
     font-size: 100%;
@@ -478,6 +482,7 @@ transform: rotate(180deg);
   .container{
     font-size: 8px;
   }
+
 
 }
 
