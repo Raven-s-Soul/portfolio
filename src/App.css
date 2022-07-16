@@ -28,7 +28,6 @@
 .pageTitle {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  backdrop-filter: blur(1px);
 }
 
 /*
@@ -132,6 +131,9 @@ a:visited {
   width: auto;
   height: auto;
   overflow: auto;
+}
+
+.container-Blur {
   backdrop-filter: blur(1px);
 }
 

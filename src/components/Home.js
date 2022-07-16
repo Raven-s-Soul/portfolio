@@ -7,8 +7,8 @@ function Home() {
   return (
     //! className="homepage" => Logo  | className="page" => No Logo
     <div className="homepage">
-      <div className="pageTitle" />
-      <div className="container">
+      <div className="pageTitle container-Blur" />
+      <div className="container container-Blur">
         <img
           src={Picture}
           className="leftImg"
