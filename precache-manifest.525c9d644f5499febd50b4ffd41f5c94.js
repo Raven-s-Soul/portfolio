@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "56d7dd3420f293cd36dc",
-    "url": "/portfolio/static/css/main.855ddb2e.chunk.css"
+    "revision": "a61b8fbeeee759b8359c",
+    "url": "/portfolio/static/css/main.8eb6fcdf.chunk.css"
   },
   {
-    "revision": "56d7dd3420f293cd36dc",
-    "url": "/portfolio/static/js/main.56d7dd34.chunk.js"
+    "revision": "a61b8fbeeee759b8359c",
+    "url": "/portfolio/static/js/main.a61b8fbe.chunk.js"
   },
   {
-    "revision": "4bb05d8fed1e4d6e8559",
-    "url": "/portfolio/static/js/1.4bb05d8f.chunk.js"
+    "revision": "aa1ef92c5cf7728f9d0a",
+    "url": "/portfolio/static/js/1.aa1ef92c.chunk.js"
   },
   {
-    "revision": "174d5b55934d53ff047d",
-    "url": "/portfolio/static/css/2.782775ee.chunk.css"
+    "revision": "cd46789a7bc6ded5ed1d",
+    "url": "/portfolio/static/css/2.b9441c46.chunk.css"
   },
   {
-    "revision": "174d5b55934d53ff047d",
-    "url": "/portfolio/static/js/2.174d5b55.chunk.js"
+    "revision": "cd46789a7bc6ded5ed1d",
+    "url": "/portfolio/static/js/2.cd46789a.chunk.js"
   },
   {
-    "revision": "6fb5dfa365a80f80c9a7",
-    "url": "/portfolio/static/js/runtime~main.6fb5dfa3.js"
+    "revision": "5fe1e30093270a724c97",
+    "url": "/portfolio/static/js/runtime~main.5fe1e300.js"
   },
   {
     "revision": "25caee5786454f769aa1c7a0e19373cb",
@@ -48,20 +48,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Uncertainties-EldenRing.be000cb6.png"
   },
   {
-    "revision": "d18fe9bb97d9f5a1e4402aedec4980c0",
-    "url": "/portfolio/static/media/Abarei.d18fe9bb.png"
-  },
-  {
     "revision": "99fc86921371c5b99a06ea1f8195f47d",
     "url": "/portfolio/static/media/Alicia_s_AlienAdventure.99fc8692.png"
   },
   {
     "revision": "7f8890150389c59f6bf82e413c87decc",
     "url": "/portfolio/static/media/AutAut.7f889015.png"
-  },
-  {
-    "revision": "fb3e6130c6ead4773adab227ed8eb1af",
-    "url": "/portfolio/static/media/PurpleBreakpoint.fb3e6130.png"
   },
   {
     "revision": "be271e09960b9c064634de2b60bb5c9b",
@@ -80,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Gmail.5ff0ee99.png"
   },
   {
-    "revision": "abc66216ac57156d0035825cfb2ad971",
+    "revision": "96f37769fd7d2e7e23f9d18d43df4469",
     "url": "/portfolio/index.html"
   }
 ];
