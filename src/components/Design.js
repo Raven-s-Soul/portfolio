@@ -6,7 +6,7 @@ import fps from "../images/FPS.png";
 import rpg from "../images/RPG.png";
 import rts from "../images/RTS.png";
 import uncertainties from "../images/Uncertainties-EldenRing.png";
-import abarei from "../images/Abarei.png";
+//import abarei from "../images/Abarei.png";
 
 class Design extends Component {
   /*
@@ -224,7 +224,7 @@ class Design extends Component {
               </div>
             </div>
 
-            <div className="col-12 col-md-6 col-lg-4">
+            {/* <div className="col-12 col-md-6 col-lg-4">
               <div className="card">
                 <img
                   src={abarei}
@@ -253,7 +253,7 @@ class Design extends Component {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

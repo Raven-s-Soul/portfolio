@@ -4,7 +4,7 @@ import React, { Component } from "react";
 //import Blanc from "../images/Blanc.png";
 import Alicias_AlienAdventure from "../images/Alicia_s_AlienAdventure.png";
 import AutAut from "../images/AutAut.png";
-import PurpleBreakpoint from "../images/PurpleBreakpoint.png";
+//import PurpleBreakpoint from "../images/PurpleBreakpoint.png";
 //import blockudoku from '../images/Blockudoku.png';
 //import blockudoku from '../images/Blockudoku.png';
 
@@ -50,7 +50,7 @@ class Dev extends Component {
                     }}
                     className="btn btn-outline-danger"
                   >
-                    Go check
+                    Incomplete - Dropped
                   </button>
                 </div>
               </div>
@@ -90,7 +90,7 @@ class Dev extends Component {
               </div>
             </div>
 
-            <div className="col-12 col-md-6 col-lg-4">
+            {/* <div className="col-12 col-md-6 col-lg-4">
               <div className="card">
                 <img
                   src={PurpleBreakpoint}
@@ -122,7 +122,7 @@ class Dev extends Component {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/*
             <div className="col-12 col-md-6 col-lg-4">
