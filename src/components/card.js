@@ -20,6 +20,13 @@ class Card extends Component {
 }
 export default Card;
 
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.1.3)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
+
 /*
 class Card extends Component {
     render(){

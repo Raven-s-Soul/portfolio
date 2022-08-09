@@ -56,3 +56,10 @@ function Home() {
 }
 
 export default Home;
+
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.1.3)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */

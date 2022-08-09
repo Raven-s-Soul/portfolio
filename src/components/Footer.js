@@ -97,3 +97,10 @@ function Footer() {
 }
 
 export default Footer;
+
+/**
+ * --------------------------------------------------------------------------
+ * Bootstrap (v5.1.3)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
