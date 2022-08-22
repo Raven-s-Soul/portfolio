@@ -22,18 +22,18 @@ function Home() {
           </h2>
           Hi, I'm Raven's Soul! I'm a Computer Science and Telecommunications
           expert.
-          <br /> I live in Italy, and my greatest passions are Videogames and
+          <br />I live in Italy, and my greatest passions are Videogames and
           Anime. I've always connected with Computer Science, which made me
-          explore by autodidact many types of Arts, from drawing to video
-          editing and VFX.
+          explore autodidact many types of Arts, from drawing to video editing
+          and VFX.
           <br />
           I'm a big fan of FPS games; I played competitively, but I chose to
           retire pretty early to focus on my studies, and when I got a bit of
           free time, I started coaching teams.
-          <br />I like free space activities and esports, especially when with
-          other people, but what I like the most is doing great teamwork, and I
-          like it even more when everyone works perfectly with others that look
-          like some gears inside a pocket watch.
+          <br />I like free space activities and esports, especially with other
+          people, but what I like the most doing great teamwork, and I like it
+          even more when everyone works perfectly with others that look like
+          gears inside a pocket watch.
         </div>
       </div>
       <div className="container2">
