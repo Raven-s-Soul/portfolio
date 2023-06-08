@@ -16,9 +16,8 @@ function Home() {
         />
         <div className="abtext">
           <h2>
-            <font color="#b10000 ">R</font>aven's{" "}
-            <font color="#b10000 ">S</font>
-            oul
+            <font color="#b10000 ">S</font>ario <font color="#b10000 ">T</font>
+            edesco
           </h2>
           Hi, I'm Raven's Soul! I'm a Computer Science and Telecommunications
           expert.
